@@ -20,7 +20,7 @@ interface ModalOverlayProps {
 
 function ModalOverlay({ children }: ModalOverlayProps) {
   return (
-    <div className="fixed top-[15vh] left-[5%] w-[90%] max-h-[80vh] overflow-auto bg-white p-4 rounded-2xl shadow-md z-30 md:w-[40rem] md:left-[calc(50% - 20rem)]">
+    <div className="fixed top-[15vh] left-[50%] -translate-x-1/2 w-[90%] max-h-[80vh] overflow-auto bg-white p-4 rounded-2xl shadow-md z-30 md:w-[40rem]">
       <div>{children}</div>
     </div>
   );

@@ -52,6 +52,7 @@ function Cart({ onClose }: CartProps) {
           name={item.title}
           quantity={item.quantity}
           price={item.price}
+          image={item.imageUrl}
           onAdd={addItemHandler.bind(null, item)}
           onRemove={removeItemHandler.bind(null, item.id)}
         />
